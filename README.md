@@ -68,6 +68,5 @@ api.single_fly_back(100)
 api.single_fly_takeoff()
 ```
 
-
 api.single_fly_touchdown()
 ```
