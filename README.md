@@ -30,7 +30,7 @@ api.single_fly_back(100)
 api.single_fly_touchdown()
 ```
 
-## 離陸と着陸
+## 上昇と下降
 ### tello_sample03.py
 ```python
 import pyhula
