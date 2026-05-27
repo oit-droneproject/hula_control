@@ -39,11 +39,35 @@ if not api.connect():
   print("connect error")
 else:
   print('connection to station by wifi')
-api.single_fly_takeoff()
 
 api.single_fly_up(50)
 api.single_fly_hover_flight(10)
 api.single_fly_down(50)
+
+api.single_fly_takeoff()
+```
+
+
+## 前後左右
+### tello_sample04.py
+```python
+import pyhula
+api = pyhula.UserApi()
+if not api.connect():
+  print("connect error")
+else:
+  print('connection to station by wifi')
+
+api.single_fly_left(100)
+api.single_fly_hover_flight(10)
+api.single_fly_right(100)
+api.single_fly_forward(100)
+api.single_fly_hover_flight(10)
+api.single_fly_back(100)
+
+api.single_fly_takeoff()
+```
+
 
 api.single_fly_touchdown()
 ```
