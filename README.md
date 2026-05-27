@@ -70,3 +70,27 @@ api.single_fly_back(100)
 
 api.single_fly_touchdown()
 ```
+
+## 旋回
+### tello_sample05.py
+```python
+import pyhula
+api = pyhula.UserApi()
+if not api.connect():
+  print("connect error")
+else:
+  print('connection to station by wifi')
+
+api.single_fly_takeoff()
+
+single_fly_turnleft(angle,led)
+api.single_fly_hover_flight(10)
+single_fly_turn(angle,led)
+
+api.single_fly_forward(100)
+api.single_fly_hover_flight(10)
+api.single_fly_back(100)
+
+api.single_fly_touchdown()
+```
+
