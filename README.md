@@ -58,15 +58,15 @@ if not api.connect():
 else:
   print('connection to station by wifi')
 
+api.single_fly_takeoff()
+
 api.single_fly_left(100)
 api.single_fly_hover_flight(10)
 api.single_fly_right(100)
+
 api.single_fly_forward(100)
 api.single_fly_hover_flight(10)
 api.single_fly_back(100)
-api.single_fly_takeoff()
-
-```
 
 api.single_fly_touchdown()
 ```
