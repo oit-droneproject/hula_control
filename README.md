@@ -1,7 +1,9 @@
 
 ## 離陸と着陸
 #### single_fly_takeoff()
+離陸するメソッド
 #### single_fly_touchdown()
+着陸するメソッド
 ### tello_sample01.py
 ```python
 import pyhula
