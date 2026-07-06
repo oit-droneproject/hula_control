@@ -129,9 +129,16 @@ api.single_fly_touchdown()
 ## 旋回
 ### tello_sample05.py
 
-#### fly_turnleft
+#### single_fly_turnleft(x)
 
+x角度
+hulaをx度、左回転させるソッド
 
+#### single_fly_turnright(x)
+
+xは角度
+
+hulaをx度、右回転させるソッド
 
 ```python
 import pyhula
