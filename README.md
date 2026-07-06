@@ -26,13 +26,19 @@ api.single_fly_touchdown()
 $0< x < 300$
 
 xはcm
-hulaを前進させる。xはcm
-#### single_fly_hover_flight()
+
+hulaをxcm前進させる。
+#### single_fly_hover_flight(x)
+xは秒数
+
+hulaをx秒停止させる。
+
 #### single_fly_back()
 $0< x < 300$
 
 xはcm
-hulaを前進させる。
+
+hulaをxcm前進させる。
 
 ```python
 import pyhula
