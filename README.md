@@ -49,6 +49,7 @@ if not api.connect():
   print("connect error")
 else:
   print('connection to station by wifi')
+print(f"battery={api.get_battery()}")
 api.single_fly_takeoff()
 
 api.single_fly_forward(50)
@@ -81,6 +82,8 @@ if not api.connect():
 else:
   print('connection to station by wifi')
 
+
+print(f"battery={api.get_battery()}")
 api.single_fly_up(50)
 api.single_fly_hover_flight(1)
 api.single_fly_down(50)
@@ -113,6 +116,8 @@ if not api.connect():
 else:
   print('connection to station by wifi')
 
+
+print(f"battery={api.get_battery()}")
 api.single_fly_takeoff()
 
 api.single_fly_left(50)
@@ -149,6 +154,7 @@ if not api.connect():
 else:
   print('connection to station by wifi')
 
+print(f"battery={api.get_battery()}")
 api.single_fly_takeoff()
 
 api.single_fly_turnleft(90)
