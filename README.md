@@ -27,7 +27,7 @@ $0< x < 300$
 
 xはcm
 
-hulaをxcm前進させる。
+hulaをxcm前進させるメソッド
 
 #### single_fly_hover_flight(x)
 
@@ -40,7 +40,7 @@ $0< x < 300$
 
 xはcm
 
-hulaをxcm前進させる。
+hulaをxcm前進させるメソッド
 
 ```python
 import pyhula
