@@ -1,10 +1,12 @@
 
 ## 離陸と着陸
+
+### tello_sample01.py
+以下のコードはhulaを離陸させて、着陸させるコードである。
 #### single_fly_takeoff()
 離陸するメソッド
 #### single_fly_touchdown()
 着陸するメソッド
-### tello_sample01.py
 ```python
 import pyhula
 api = pyhula.UserApi()
