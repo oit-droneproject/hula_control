@@ -162,3 +162,28 @@ api.single_fly_turnright(90)
 api.single_fly_touchdown()
 ```
 
+## 旋回
+### tello_sample06.py
+
+```python
+import pyhula
+import time
+
+api = pyhula.UserApi()
+if not api.connect():
+  print("connect error")
+else:
+  print('connection to station by wifi')
+api.single_fly_takeoff()
+api.single_fly_touchdown()
+
+time.sleep(10) # 10秒間スリープ
+
+api.single_fly_takeoff()
+api.single_fly_touchdown()
+
+time.sleep(10) # 10秒間スリープ
+
+api.single_fly_takeoff()
+api.single_fly_touchdown()
+```
