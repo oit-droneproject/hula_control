@@ -162,7 +162,7 @@ api.single_fly_turnright(90)
 api.single_fly_touchdown()
 ```
 
-## 旋回
+## 再離陸
 ### tello_sample06.py
 
 ```python
