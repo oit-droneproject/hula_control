@@ -51,15 +51,28 @@ else:
   print('connection to station by wifi')
 api.single_fly_takeoff()
 
-api.single_fly_forward(100)
-api.single_fly_hover_flight(10)
-api.single_fly_back(100)
+api.single_fly_forward(50)
+api.single_fly_hover_flight(1)
+api.single_fly_back(50)
 
 api.single_fly_touchdown()
 ```
 
 ## 上昇と下降
 ### tello_sample03.py
+
+#### single_fly_up(x)
+
+xはcm
+
+hulaをxcm上昇させるメソッド。
+
+#### single_fly_down(x)
+
+xはcm
+
+hulaをxcm下降させるメソッド。
+
 ```python
 import pyhula
 api = pyhula.UserApi()
@@ -69,7 +82,7 @@ else:
   print('connection to station by wifi')
 
 api.single_fly_up(50)
-api.single_fly_hover_flight(10)
+api.single_fly_hover_flight(1)
 api.single_fly_down(50)
 
 api.single_fly_takeoff()
