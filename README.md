@@ -90,7 +90,7 @@ api.single_fly_takeoff()
 
 
 ## 前後左右
-
+以下のコードはhulaを前後左右に移動させることができる。
 ### tello_sample04.py
 
 #### single_fly_left(x)
@@ -115,19 +115,24 @@ else:
 
 api.single_fly_takeoff()
 
-api.single_fly_left(100)
-api.single_fly_hover_flight(10)
-api.single_fly_right(100)
+api.single_fly_left(50)
+api.single_fly_hover_flight(1)
+api.single_fly_right(50)
 
-api.single_fly_forward(100)
-api.single_fly_hover_flight(10)
-api.single_fly_back(100)
+api.single_fly_forward(50)
+api.single_fly_hover_flight(1)
+api.single_fly_back(50)
 
 api.single_fly_touchdown()
 ```
 
 ## 旋回
 ### tello_sample05.py
+
+#### fly_turnleft
+
+
+
 ```python
 import pyhula
 api = pyhula.UserApi()
@@ -138,13 +143,9 @@ else:
 
 api.single_fly_takeoff()
 
-single_fly_turnleft(angle,led)
-api.single_fly_hover_flight(10)
-single_fly_turn(angle,led)
-
-api.single_fly_forward(100)
-api.single_fly_hover_flight(10)
-api.single_fly_back(100)
+api.single_fly_turnleft(90)
+api.single_fly_hover_flight(1)
+api.single_fly_turnright(90)
 
 api.single_fly_touchdown()
 ```
