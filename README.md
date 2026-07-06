@@ -90,7 +90,21 @@ api.single_fly_takeoff()
 
 
 ## 前後左右
+
 ### tello_sample04.py
+
+#### single_fly_left(x)
+
+$0<x<300$
+
+hulaをxcm左に並行移動させるメソッド。
+
+#### single_fly_right(x)
+
+$0<x<300$
+
+hulaをxcm右に並行移動させるメソッド。
+
 ```python
 import pyhula
 api = pyhula.UserApi()
