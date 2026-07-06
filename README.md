@@ -18,8 +18,20 @@ api.single_fly_takeoff()
 api.single_fly_touchdown()
 ```
 
-## 前進、停止、更新
+## 前進、停止、後進
 ### tello_sample02.py
+以下のコードはhulaを前進、停止、後進させるメソッドである。
+
+#### single_fly_forward(x)
+$0< x < 300$
+xはcm
+hulaを前進させる。xはcm
+#### single_fly_hover_flight()
+#### single_fly_back()
+$0< x < 300$
+xはcm
+hulaを前進させる。
+
 ```python
 import pyhula
 api = pyhula.UserApi()
