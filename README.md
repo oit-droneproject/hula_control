@@ -84,11 +84,13 @@ else:
 
 
 print(f"battery={api.get_battery()}")
+
+api.single_fly_takeoff()
 api.single_fly_up(50)
 api.single_fly_hover_flight(1)
 api.single_fly_down(50)
 
-api.single_fly_takeoff()
+api.single_fly_touchdown()
 ```
 
 
