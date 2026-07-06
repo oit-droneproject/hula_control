@@ -132,6 +132,7 @@ api.single_fly_touchdown()
 #### single_fly_turnleft(x)
 
 x角度
+
 hulaをx度、左回転させるソッド
 
 #### single_fly_turnright(x)
