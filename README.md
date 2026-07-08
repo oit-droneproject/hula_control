@@ -126,6 +126,10 @@ api.single_fly_left(50)
 api.single_fly_hover_flight(1)
 api.single_fly_right(50)
 
+api.single_fly_forward(50)
+api.single_fly_hover_flight(1)
+api.single_fly_back(50)
+
 api.single_fly_touchdown()
 ```
 
