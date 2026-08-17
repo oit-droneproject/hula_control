@@ -178,6 +178,7 @@ api.single_fly_touchdown()
 
 離陸と着陸を繰り返す例です。`time.sleep(x)` で、次の離陸までに x 秒間の待機を挟みます。
 再離陸には必ずドローンを10秒の待機させてください。
+
 **tello_sample06.py**
 
 ```python
