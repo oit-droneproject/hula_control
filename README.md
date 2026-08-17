@@ -40,7 +40,7 @@ $0< x < 300$
 
 xはcm
 
-hulaをxcm前進させるメソッド
+hulaをxcm後進させるメソッド
 
 ```python
 import pyhula
