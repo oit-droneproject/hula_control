@@ -60,7 +60,7 @@ api.single_fly_touchdown()
 | `single_fly_back(x)` | `0 < x < 300`（cm） | 機体を x cm 後進させる |
 | `single_fly_hover_flight(x)` | `x`（秒） | 機体を x 秒間その場で停止（ホバリング）させる |
 
-**tello_sample02.py**
+### tello_sample02.py
 
 ```python
 import pyhula
@@ -120,7 +120,7 @@ api.single_fly_touchdown()
 | `single_fly_left(x)` | `0 < x < 300`（cm） | 機体を x cm 左へ並行移動させる |
 | `single_fly_right(x)` | `0 < x < 300`（cm） | 機体を x cm 右へ並行移動させる |
 
-**tello_sample04.py**
+### hula_sample04.py
 
 ```python
 import pyhula
@@ -152,7 +152,7 @@ api.single_fly_touchdown()
 | `single_fly_turnleft(x)` | `x`（度） | 機体を x 度、左（反時計回り）に回転させる |
 | `single_fly_turnright(x)` | `x`（度） | 機体を x 度、右（時計回り）に回転させる |
 
-**tello_sample05.py**
+### hula_sample05.py
 
 ```python
 import pyhula
@@ -179,7 +179,7 @@ api.single_fly_touchdown()
 離陸と着陸を繰り返す例です。`time.sleep(x)` で、次の離陸までに x 秒間の待機を挟みます。
 再離陸には必ずドローンを10秒の待機させてください。
 
-**tello_sample06.py**
+### hula_sample06.py
 
 ```python
 import pyhula
