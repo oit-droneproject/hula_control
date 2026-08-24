@@ -202,8 +202,3 @@ time.sleep(10)  # 10秒間スリープ
 api.single_fly_takeoff()
 api.single_fly_touchdown()
 ```
-
-
-| 上下移動 | `single_fly_up(x)` / `single_fly_down(x)` | `x`（cm） |
-| 旋回 | `single_fly_turnleft(x)` / `single_fly_turnright(x)` | `x`（度） |
-| 停止 | `single_fly_hover_flight(x)` | `x`（秒） |
