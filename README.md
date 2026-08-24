@@ -35,7 +35,7 @@ else:
 | `single_fly_takeoff()` | 機体を離陸させる |
 | `single_fly_touchdown()` | 機体を着陸させる |
 
-**tello_sample01.py**
+### tello_sample01.py
 
 ```python
 import pyhula
