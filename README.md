@@ -35,7 +35,7 @@ else:
 | `single_fly_takeoff()` | 機体を離陸させる |
 | `single_fly_touchdown()` | 機体を着陸させる |
 
-### tello_sample01.py
+### hula_sample01.py
 
 ```python
 import pyhula
@@ -60,7 +60,7 @@ api.single_fly_touchdown()
 | `single_fly_back(x)` | `0 < x < 300`（cm） | 機体を x cm 後進させる |
 | `single_fly_hover_flight(x)` | `x`（秒） | 機体を x 秒間その場で停止（ホバリング）させる |
 
-### tello_sample02.py
+### hula_sample02.py
 
 ```python
 import pyhula
@@ -89,7 +89,7 @@ api.single_fly_touchdown()
 | `single_fly_up(x)` | `x`（cm） | 機体を x cm 上昇させる |
 | `single_fly_down(x)` | `x`（cm） | 機体を x cm 下降させる |
 
-**tello_sample03.py**
+### hula_sample03.py
 
 ```python
 import pyhula
